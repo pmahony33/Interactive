@@ -77,9 +77,12 @@ a {
     display: inline-block;
     position: relative;
     width: 32%;
+    height: 56px;
     box-sizing: border-box;
+    vertical-align: top;
 }
 #home_button{text-align: center;
 	text-transform: uppercase;
 	font-style: italic;
+	padding: 10px;
 }
