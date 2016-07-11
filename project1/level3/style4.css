@@ -4,13 +4,13 @@ body {
 		margin-bottom: 10px;
 }
 h1	{
-		background: salmon;
+		background: white;
 		position: fixed;
 		width: auto;
 }
 h2{
-	background: teal;
-	border-color: black;
+	background: white;
+	border-color: black dashed;
 }
 li{
 	display: inline;
@@ -20,7 +20,7 @@ li{
 	height: 200px;
 	position: relative;
 	top: 15px;
-	background-color: linen;
+	background-color: white;
     padding: 15px 32px;
     margin: 4px 10px;
 }
@@ -28,7 +28,7 @@ li{
 h3{	position: relative;
 	top: 35px;
 }
-.poem{background: purple lighten-5;
+.poem{background: black;
 	width: 550px;
 	position: absolute;
 	left: 450px;

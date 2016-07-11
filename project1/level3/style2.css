@@ -1,16 +1,11 @@
-body {
-		background: grey;
-		color: orange
-}
 #poem { background: white;
 		margin-left: auto;
 		margin-right: auto;
 		width: 1220px;
 		height:76px;
 		margin-top: 250px;
-		color: blue;
 		border-style: outset;
-		border-color: blue;
+		border-color: black;
 		border-width:10px;
 }
 h1	{
@@ -22,58 +17,58 @@ h1	{
 #one{float: left;
 	border-style: dashed;
 	border-width: 2px;
-	border-color: grey;
+	border-color: black;
 	
 }
 #two{float: left;
 	border-style: dashed;
 	border-width: 2px;
-	border-color: grey;
+	border-color: black;
 }
 #three{float: left;
 	border-style: dashed;
 	border-width: 2px;
-	border-color: grey;
+	border-color: black;
 }
 #four{float: left;
 	border-style: dashed;
 	border-width: 2px;
-	border-color: grey;
+	border-color: black;
 }
 #five{float: left;
 	border-style: dashed;
 	border-width: 2px;
-	border-color: grey;
+	border-color: black;
 }
 #six{float: left;
 	border-style: dashed;
 	border-width: 2px;
-	border-color: grey;
+	border-color: black;
 }
 #seven{float: left;
 	border-style: dashed;
 	border-width: 2px;
-	border-color: grey;
+	border-color: black;
 }
 #eight{float: left;
 	border-style: dashed;
 	border-width: 2px;
-	border-color: grey;
+	border-color: black;
 }
 #nine{float: left;
 	border-style: dashed;
 	border-width: 2px;
-	border-color: grey;
+	border-color: black;
 }
 #ten{float: left;
 	border-style: dashed;
 	border-width: 2px;
-	border-color: grey;
+	border-color: black;
 }
 #eleven{float: left;
 	border-style: dashed;
 	border-width: 2px;
-	border-color: grey;
+	border-color: black;
 }
 #name{float: left;
 position: relative;

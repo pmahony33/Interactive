@@ -6,13 +6,13 @@ h1	{
 	width: 1400px;
 	z-index: +2;
 	border-radius: 10px;
-	border: 3px outset darkviolet;
+	border: 3px outset black;
 } 
 body {
-		background: dodgerblue;
+		background: white;
 		position: relative;
 }
-.stanza { background: linen;
+.stanza { background: white;
 		margin-left: auto;
 		margin-right: auto;
 		margin-bottom: auto;
@@ -22,20 +22,20 @@ body {
 		top: 60px;
 		z-index: -1;
 		position: relative;
-		border: 3px outset darkviolet;
+		border: 3px outset black;
 }
 #box {
 	position: fixed;
 	width:2000px;
 	height: 40px;
-	background: dodgerblue;
+	background: white;
 	top: 0px;
 	left: 0px;
 	z-index: +1;
 }
 #name{
 	position: fixed;
-	border: 3px inset darkviolet;
+	border: 3px inset black;
 	background: white;
 	top: 400px;
 	right: 150px;
