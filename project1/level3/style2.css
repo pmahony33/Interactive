@@ -5,9 +5,9 @@ body {
 #poem { background: white;
 		margin-left: auto;
 		margin-right: auto;
-		width: 800px;
-		margin-bottom: 20px;
-		margin-top: 20px;
+		width: 1220px;
+		height:76px;
+		margin-top: 250px;
 		color: blue;
 		border-style: outset;
 		border-color: blue;
@@ -15,65 +15,67 @@ body {
 }
 h1	{
 		font-family: Times;
-		text-align: center;
+		float: center;
 		margin-right: auto;
 		margin-left: auto;
 }
-#one{text-align: left;
+#one{float: left;
 	border-style: dashed;
 	border-width: 2px;
 	border-color: grey;
 	
 }
-#two{text-align: center;
-	border-width: 2px;
-	border-color: grey;
-	border-style: dashed;
-}
-#three{text-align: right;
+#two{float: left;
 	border-style: dashed;
 	border-width: 2px;
 	border-color: grey;
 }
-#four{text-align: center;
+#three{float: left;
 	border-style: dashed;
 	border-width: 2px;
 	border-color: grey;
 }
-#five{text-align: left;
+#four{float: left;
 	border-style: dashed;
 	border-width: 2px;
 	border-color: grey;
 }
-#six{text-align: center;
+#five{float: left;
 	border-style: dashed;
 	border-width: 2px;
 	border-color: grey;
 }
-#seven{text-align: right;
+#six{float: left;
 	border-style: dashed;
 	border-width: 2px;
 	border-color: grey;
 }
-#eight{text-align: center;
+#seven{float: left;
 	border-style: dashed;
 	border-width: 2px;
 	border-color: grey;
 }
-#nine{text-align: left;
+#eight{float: left;
 	border-style: dashed;
 	border-width: 2px;
 	border-color: grey;
 }
-#ten{text-align: center;
+#nine{float: left;
 	border-style: dashed;
 	border-width: 2px;
 	border-color: grey;
 }
-#eleven{text-align: right;
+#ten{float: left;
 	border-style: dashed;
 	border-width: 2px;
 	border-color: grey;
 }
-#name{text-align: center;
+#eleven{float: left;
+	border-style: dashed;
+	border-width: 2px;
+	border-color: grey;
+}
+#name{float: left;
+position: relative;
+bottom: -30px;
 }

@@ -1,33 +1,36 @@
 body {
-		background: rgb(147, 184, 116);
-}
-
-.container {
-		background: rgb(236, 235, 232);
-		margin-left: auto;
-		margin-right: auto;
-		margin-top: 100px;
-		margin-bottom: 100px;
-		width: 700px
-
+		background: white;
+		margin-top: 10px;
+		margin-bottom: 10px;
 }
 h1	{
-		font-family: Times;
-		text-align: center;
-		background: rgb(147, 184, 116);
-}
-.header {
-		text-align:center;
-}
-img{
-	background: white;
-	text-align: center;
-	text-overflow: right;
+		background: salmon;
+		position: fixed;
+		width: auto;
 }
 h2{
-	text-align: center;
-	background: rgb(147, 184, 116);
+	background: teal;
 	border-color: black;
 }
-a {  
-	}
+li{
+	display: inline;
+	border-color:black 
+	border-width:3px;
+	border-style: outset;
+	height: 200px;
+	position: relative;
+	top: 15px;
+	background-color: linen;
+    padding: 15px 32px;
+    margin: 4px 10px;
+}
+
+h3{	position: relative;
+	top: 35px;
+}
+.poem{background: purple lighten-5;
+	width: 550px;
+	position: absolute;
+	left: 450px;
+	z-index: -1
+}

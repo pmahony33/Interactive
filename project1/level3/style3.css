@@ -1,6 +1,8 @@
 body {
 		background: dodgerblue;
 		color: darkviolet;
+		position: fixed;
+		right: 300px;
 
 }
 #poem { background: linen;
@@ -18,82 +20,82 @@ body {
 }
 h1	{
 		font-family: Times;
-		text-align: center;
 		margin-right: auto;
 		margin-left: auto;
+		position: fixed;
+		right: 20px;
+		top: 0;
 }
-#one{text-align: center;
-	position: relative;
+#one{position: relative;
 	top:0;
 	left: 0;
 	width: 258px;
 	border: 3px solid darkviolet;
 	
 }
-#two{text-align:center;
-	position: relative;
+#two{position: relative;
 	top:-78px;
 	left: 261px;
 	width: 258px;
 	border: 3px solid darkviolet;
 }
-#three{text-align:center;
+#three{
 	position: relative;
 	top:-156px;
 	left:522px;
 	width: 258px;
 	border: 3px solid darkviolet;
 }
-#four{text-align:center;
+#four{
 	position: relative;
 	top:-159px;
 	left: 0px;
 	width: 258px;
 	border: 3px solid darkviolet;
 }
-#five{text-align:center;
+#five{
 	position: relative;
 	top:-237px;
 	left: 261px;
 	width: 258px;
 	border: 3px solid darkviolet;
 }
-#six{text-align:center;
+#six{
 	position: relative;
 	top:-315px;
 	left: 522px;
 	width: 258px;
 	border: 3px solid darkviolet;
 }
-#seven{text-align:center;
+#seven{
 	position: relative;
 	top:-318px;
 	left: 0px;
 	width: 258px;
 	border: 3px solid darkviolet;
 }
-#eight{text-align:center;
+#eight{
 	position: relative;
 	top:-396px;
 	left: 261px;
 	width: 258px;
 	border: 3px solid darkviolet;
 }
-#nine{text-align:center;
+#nine{
 	position: relative;
 	top:-474px;
 	left: 522px;
 	width: 258px;
 	border: 3px solid darkviolet;
 }
-#ten{text-align:center;
+#ten{
 	position: relative;
 	top:-477px;
 	left: 261px;
 	width: 258px;
 	border: 3px solid darkviolet;
 }
-#name{text-align:center;
+#name{
 	position: relative;
 	top:-480px;
 	left: 261px;

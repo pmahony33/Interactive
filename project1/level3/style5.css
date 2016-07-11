@@ -1,33 +1,42 @@
+h1	{	
+	position: fixed;
+	background: white;
+	left: 20px;
+	top: 0;
+	width: 1400px;
+	z-index: +2;
+	border-radius: 10px;
+	border: 3px outset darkviolet;
+} 
 body {
-		background: rgb(147, 184, 116);
+		background: dodgerblue;
+		position: relative;
 }
-
-.container {
-		background: rgb(236, 235, 232);
+.stanza { background: linen;
 		margin-left: auto;
 		margin-right: auto;
-		margin-top: 100px;
-		margin-bottom: 100px;
-		width: 700px
-
+		margin-bottom: auto;
+		margin-top: auto;
+		width: 150px;
+		height: auto;
+		top: 60px;
+		z-index: -1;
+		position: relative;
+		border: 3px outset darkviolet;
 }
-h1	{
-		font-family: Times;
-		text-align: center;
-		background: rgb(147, 184, 116);
+#box {
+	position: fixed;
+	width:2000px;
+	height: 40px;
+	background: dodgerblue;
+	top: 0px;
+	left: 0px;
+	z-index: +1;
 }
-.header {
-		text-align:center;
-}
-img{
+#name{
+	position: fixed;
+	border: 3px inset darkviolet;
 	background: white;
-	text-align: center;
-	text-overflow: right;
+	top: 400px;
+	right: 150px;
 }
-h2{
-	text-align: center;
-	background: rgb(147, 184, 116);
-	border-color: black;
-}
-a {  
-	}
