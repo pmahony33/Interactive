@@ -1,0 +1,33 @@
+body {
+		background: rgb(147, 184, 116);
+}
+
+.container {
+		background: rgb(236, 235, 232);
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 100px;
+		margin-bottom: 100px;
+		width: 700px
+
+}
+h1	{
+		font-family: Times;
+		text-align: center;
+		background: rgb(147, 184, 116);
+}
+.header {
+		text-align:center;
+}
+img{
+	background: white;
+	text-align: center;
+	text-overflow: right;
+}
+h2{
+	text-align: center;
+	background: rgb(147, 184, 116);
+	border-color: black;
+}
+a {  
+	}
