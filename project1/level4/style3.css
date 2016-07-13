@@ -1,0 +1,118 @@
+body {
+		background: white;
+		color: black;
+		position: fixed;
+		right: 300px;
+
+}
+#poem { background: white;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: auto;
+		margin-top: auto;
+		border-width:10px;
+		width: 786px;
+		height: 324px;
+		text-transform: lowercase;
+		text-align: center;
+		font-weight: bolder;
+
+}
+h1	{
+		font-family: Times;
+		margin-right: auto;
+		margin-left: auto;
+		position: fixed;
+		right: 20px;
+		top: 0;
+		font-weight: 100;
+}
+#one{position: relative;
+	top:0;
+	left: 0;
+	width: 258px;
+	border: 3px solid black;
+	font-style: normal;
+	
+}
+#two{position: relative;
+	top:-78px;
+	left: 261px;
+	width: 258px;
+	border: 3px solid black;
+	font-style: italic;
+}
+#three{
+	position: relative;
+	top:-156px;
+	left:522px;
+	width: 258px;
+	border: 3px solid black;
+	font-style: normal;
+	font-family: Tahoma;
+}
+#four{
+	position: relative;
+	top:-159px;
+	left: 0px;
+	width: 258px;
+	border: 3px solid black;
+	font-style: normal;
+}
+#five{
+	position: relative;
+	top:-237px;
+	left: 261px;
+	width: 258px;
+	border: 3px solid black;
+	font-style: italic;
+}
+#six{
+	position: relative;
+	top:-315px;
+	left: 522px;
+	width: 258px;
+	border: 3px solid black;
+	font-style: normal;
+	font-family: Tahoma;
+
+}
+#seven{
+	position: relative;
+	top:-318px;
+	left: 0px;
+	width: 258px;
+	border: 3px solid black;
+	font-style: normal;
+}
+#eight{
+	position: relative;
+	top:-396px;
+	left: 261px;
+	width: 258px;
+	border: 3px solid black;
+	font-style: italic;
+}
+#nine{
+	position: relative;
+	top:-474px;
+	left: 522px;
+	width: 258px;
+	border: 3px solid black;
+	font-style: normal;
+	font-family: Tahoma;
+}
+#ten{
+	position: relative;
+	top:-530px;
+	left: 261px;
+	width: 258px;
+	border: 3px solid black;
+	font-style: italic;
+}
+#name{ position: fixed;
+	bottom: 0;
+	border: 3px solid black;
+	width: 774px;
+	font-style: normal;
+}

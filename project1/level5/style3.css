@@ -1,0 +1,41 @@
+#poem {
+    width: 100px;
+    height: 100%;
+    background: gold;
+    position :relative;
+    -webkit-animation: mymove 15s alternate infinite; /* Chrome, Safari, Opera */
+    animation: mymove 15s alternate infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    0%   {opacity: 0;
+        left:100px;
+    }
+    25%  {opacity: .2;
+        left:300px;
+    }
+    75%  {opacity: .5;
+        left:500px;
+    }
+    100% {opacity: 1;
+        left: 700px;
+    }
+}
+
+/* Standard syntax */
+@keyframes mymove {    
+    0%   {opacity: 0;
+        left:100px;
+    }
+    25%  {opacity: .2;
+        left:300px;
+    }
+    75%  {opacity: .5;
+        left:500px;
+    }
+    100% {opacity: 1;
+        left: 700px;
+    }
+
+}

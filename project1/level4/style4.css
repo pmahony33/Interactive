@@ -1,0 +1,21 @@
+body {
+		margin-top: 100px;
+		margin-bottom: 10px;
+}
+h1	{
+		width: auto;
+}
+h2{
+	border-color:   dashed;
+	letter-spacing: 25px;
+}
+li{
+	display: inline;
+	border-width:3px;
+}
+
+h3{	position: relative;
+	top: 35px;
+	letter-spacing: 10px;
+}
+#poem{font-family: cursive;}

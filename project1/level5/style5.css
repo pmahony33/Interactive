@@ -1,0 +1,74 @@
+#header	{	
+	position: fixed;
+	background: #585858;
+	top: 0;
+	width: 100%;
+	z-index: +2;
+	border-radius: 10px;
+	border: 3px solid #585858;
+	margin: 8px;
+
+} 
+body {
+		background: #C1E1A6;
+}
+.stanza { background: #C1E1A6;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: auto;
+		margin-top: auto;
+		width: 50%;
+		height: auto;
+		top: 60px;
+		z-index: -1;
+		position: relative;
+		border: 3px #585858;
+		border: solid #118C4E;
+		opacity: 1;
+		text-align: center;
+}
+#box {
+	position: fixed;
+	width:100%;
+	height: 40px;
+	background: #C1E1A6;
+	top: 0px;
+	left: 0px;
+	z-index: +1;
+}
+#name{
+	position: fixed;
+	border: 3px inset #585858;
+	background: #C1E1A6;
+	top: 400px;
+	right: 150px;
+}
+.stanza:hover{animation: reversefade 1s 1 forwards;}
+@keyframes reversefade {
+	0% {opacity: 1;}
+	100% {opacity: 0;}
+}
+li{ position: relative;
+display: inline-block;
+border:solid #585858 3px;
+background: #118C4E;
+margin: 10px 5px 2px 10px;
+padding: 5px;
+height: 100%;
+width: 6.8% ;
+text-align: center;}
+ul{position: relative;
+height: 100%;
+left: 15%;
+right: 0;}
+.poem{
+	background-color: #585858;
+	opacity: .4;
+	position: relative;
+	top: 150px;
+	width: 100%;
+	margin: 8px;
+	height: 1200px;
+}
+a{color: black;
+text-decoration: none;}

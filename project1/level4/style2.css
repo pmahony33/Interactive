@@ -1,0 +1,84 @@
+.box{
+	position: relative;
+	float: center;
+
+	height: 600px;
+	width: 200px;
+	background:black;
+}
+#poem { position: relative;
+		width: auto;
+		height:auto;
+		margin-top: 250px;
+		text-transform: lowercase;
+		font-weight: 200;
+		font-family: cursive;
+		padding: 10px;
+}
+
+h1	{
+		font-family: Times;
+		float: center;
+		margin-right: auto;
+		margin-left: auto;
+}
+#one{float: left;
+	border-style:  solid;
+	border-width: 2px;
+	border-color: black;
+	
+}
+#two{float: left;
+	border-style:  solid;
+	border-width: 2px;
+	border-color: black;
+}
+#three{float: left;
+	border-style:  solid;
+	border-width: 2px;
+	border-color: black;
+}
+#four{float: left;
+	border-style:  solid;
+	border-width: 2px;
+	border-color: black;
+}
+#five{float: left;
+	border-style:  solid;
+	border-width: 2px;
+	border-color: black;
+}
+#six{float: left;
+	border-style:  solid;
+	border-width: 2px;
+	border-color: black;
+}
+#seven{float: left;
+	border-style:  solid;
+	border-width: 2px;
+	border-color: black;
+}
+#eight{float: left;
+	border-style:  solid;
+	border-width: 2px;
+	border-color: black;
+}
+#nine{float: left;
+	border-style:  solid;
+	border-width: 2px;
+	border-color: black;
+}
+#ten{float: left;
+	border-style:  solid;
+	border-width: 2px;
+	border-color: black;
+}
+#eleven{float: left;
+	border-style:  solid;
+	border-width: 2px;
+	border-color: black;
+}
+#name{float: left;
+position: relative;
+bottom: -30px;
+}

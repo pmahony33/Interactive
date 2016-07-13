@@ -1,0 +1,51 @@
+.poem { display: inline-block;
+		width: 110px;
+		font-family: monospace;
+		line-height: 40%;
+		letter-spacing: -3px;
+}
+h1	{
+		font-family: Times;
+		margin-right: auto;
+		margin-left: auto;
+}
+#twin{	position: relative;
+		float:left;
+		margin: 100px;
+		vertical-align: top;
+		top: -100px;
+
+}
+#one{
+
+}
+#two{
+
+}
+#three{
+
+}
+#four{
+
+}
+#five{
+
+}
+#six{
+
+}
+#seven{
+
+}
+#eight{
+
+}
+#nine{
+
+}
+#ten{
+
+}
+#name{
+
+}

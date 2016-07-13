@@ -3,21 +3,58 @@
 
 <head>
   <title>Peter's Summer Home</title>
+  <style text="text/css">
+  	body{margin:0;}
+  	  	#image{	position: fixed;
+  			height: 100%;
+  			width: 100%;
+  			top: 0;
+  			bottom:0;
+  			}
+  	img{	z-index: -1
+  		max-width:100%;
+  		min-width: 100%;
+  		max-height: 100%;
+  		min-height: 100%;}
+  	h1{	position: fixed;
+  		top: 0;
+  		right: 0;
+  		width: 100%;
+  		background-color: grey;
+  		opacity: 0.8;
+  		margin: 0;
+  		text-align: center;
+  		font-family: arial;
+  		z-index: 1;}
+  	ol{position: fixed;
+  		background-color: grey;
+  		opacity: 0.5;
+  		display: inline-block;
+  		float: right;
+  		width: 50%;
+  		z-index: 1;
+      bottom:0;
+      margin: 0;
+    }
+    #project{right: 0;
+      vertical-align: top;}
+  </style>
 </head>
 	
 <body>
 <h1>Peter's Summer Home</h1>
-<img src="images/hamster.jpg" width=75%>
+<div id="image">
+<img src="images/hamster.jpg">
 	<ol><strong>Workshop's</strong>
    		<li><a href="workshop1/throbber.html">THROBBER</a></li>
    		<li><a href="workshop2/index.html">WikiHow</a></li>
    		<li><a href="workshop3/index.html">StyleGuide</a></li>
    		<li><a href="workshop4/index.html">Table of Contents</a></li>
    	</ol>
-	<ol><strong>Project's</strong>
+	<ol id="project"><strong>Projects</strong>
 		<li><a href="project1/index.html">25 Variations</a></li>
 	</ol>
-  
+ </div>
 </body>
 	
 </html>

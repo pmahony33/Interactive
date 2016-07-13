@@ -1,0 +1,57 @@
+.poem {margin-left: auto;
+		margin-right: auto;
+		width: 110px;
+		margin-bottom: 20px;
+		margin-top: 20px;
+		float: center;
+		animation-duration: 4s;
+
+}
+body{ background-color: orange;
+color: grey; }
+}
+h1	{
+		font-family: Times;
+		text-align: center;
+		background-color: grey;
+		opacity: .4;
+		position: fixed;
+		height: 100px;
+		top: 0;
+		width: 100%;
+		z-index: 1;
+
+}
+
+@keyframes slideInUp {
+  from {
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+@keyframes slideOutDown {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    visibility: hidden;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+}
+#one{-webkit-animation:slideOutDown;}
+#three{-webkit-animation:slideOutDown;}
+#five{-webkit-animation:slideOutDown;}
+#seven{-webkit-animation:slideOutDown;}
+#nine{-webkit-animation:slideOutDown;}
+#two{-webkit-animation:slideInUp;}
+#four{-webkit-animation:slideInUp;}
+#six{-webkit-animation:slideInUp;}
+#eight{-webkit-animation:slideInUp;}
