@@ -8,12 +8,6 @@
 		border-color: black;
 		border-width:10px;
 }
-h1	{
-		font-family: Times;
-		float: center;
-		margin-right: auto;
-		margin-left: auto;
-}
 #one{float: left;
 	border-style: dashed;
 	border-width: 2px;

@@ -12,12 +12,6 @@
     0%   {opacity: 0;
         left:100px;
     }
-    25%  {opacity: .2;
-        left:300px;
-    }
-    75%  {opacity: .5;
-        left:500px;
-    }
     100% {opacity: 1;
         left: 700px;
     }
@@ -27,12 +21,6 @@
 @keyframes mymove {    
     0%   {opacity: 0;
         left:100px;
-    }
-    25%  {opacity: .2;
-        left:300px;
-    }
-    75%  {opacity: .5;
-        left:500px;
     }
     100% {opacity: 1;
         left: 700px;

@@ -2,7 +2,6 @@ body {
 		background: white;
 		color: black;
 		position: fixed;
-		right: 300px;
 
 }
 #poem { background: white;
@@ -17,14 +16,6 @@ body {
 		width: 786px;
 		height: 324px;
 
-}
-h1	{
-		font-family: Times;
-		margin-right: auto;
-		margin-left: auto;
-		position: fixed;
-		right: 20px;
-		top: 0;
 }
 #one{position: relative;
 	top:0;
