@@ -20,7 +20,6 @@ body {
 		width: 50%;
 		height: auto;
 		top: 60px;
-		z-index: -1;
 		position: relative;
 		border: 3px #585858;
 		border: solid #118C4E;
@@ -36,18 +35,6 @@ body {
 	left: 0px;
 	z-index: +1;
 }
-#name{
-	position: fixed;
-	border: 3px inset #585858;
-	background: #C1E1A6;
-	top: 400px;
-	right: 150px;
-}
-.stanza:hover{animation: reversefade 1s 1 forwards;}
-@keyframes reversefade {
-	0% {opacity: 1;}
-	100% {opacity: 0;}
-}
 li{ position: relative;
 display: inline-block;
 border:solid #585858 3px;
@@ -57,18 +44,25 @@ padding: 5px;
 height: 100%;
 width: 6.8% ;
 text-align: center;}
-ul{position: relative;
-height: 100%;
-left: 15%;
-right: 0;}
+ul{text-align: center;
+padding-left: 0;
+width: 100%;}
 .poem{
-	background-color: #585858;
-	opacity: .4;
 	position: relative;
-	top: 150px;
 	width: 100%;
 	margin: 8px;
-	height: 1200px;
+	height: auto;
+	text-align: center;
+	margin-bottom: 100px;
+
 }
 a{color: black;
 text-decoration: none;}
+.stanza:hover{animation: reversefade;
+	animation-fill-mode: forwards;
+	animation-duration: 1s;
+}
+@keyframes reversefade {
+	0% {opacity: 1;}
+	100% {opacity: 0;}
+}

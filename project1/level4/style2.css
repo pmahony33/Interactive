@@ -80,5 +80,6 @@ h1	{
 }
 #name{float: left;
 position: relative;
-bottom: -30px;
+top: 15px;
+margin: 60px;
 }
