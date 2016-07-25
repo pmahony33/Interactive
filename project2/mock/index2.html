@@ -6,13 +6,111 @@
 </head>
 	
 <body>
-<h1>HTML/CSS mockups</h1>
-<ol><strong></strong>
-   	<li><a href="mock/index1.html">Intro</a></li>
-   	<li><a href="mock/index2.html">Speed/velocity</a></li>
-   	<li><a href="mock/index3.html">Info</a></li>
-</ul>
-<a href="index.html">BACK</a>
+	<div class="space">
+			<div class="sliderbox">
+				<p class="label">Speed of Light:</p>
+				<span class="entry">10 MPH</span></div>
+				<div class="slider"></div>
+				<img src="stick.png">
+			</div>
+			<div class="sliderbox">
+				<p class="Label">Force of Gravity</p>
+				<p class="entry">32 FPS/S</p>
+				<div class="slider"></div>
+				<img src="globe.jpg">
+			</div>
+			<div class="buttonbox"><p class="button">Continue</p></div>
+			<div class="infobox"><p class="info">i</p></div>
+	</div>
 </body>
+<style type="text/css">
+
+body {
+position: fixed;
+background-image: linear-gradient(-90deg, #9180F3 23%, rgba(225,73,73,0.96) 100%);
+border: 1px solid #979797;
+text-align: center;
+}
+.space{ position: fixed;
+		background: black;
+		margin: 15px;
+		height: 97%;
+		width: 94%;
+		text-align: center;
+		background-image: url("noise.png");
+		z-index: -1;
+}
+.sliderbox{position: relative;
+background: #FFFFFF;
+border: 1px solid #020000;
+border-radius: 8px;
+padding: 10px;
+width: 70%;
+text-align: center;
+display: inline-block;
+margin-left: 15%;
+margin-right: 15%;
+margin-top: 100px;
+z-index: 1;
+}
+.label{
+	position: relative;
+	right: 5%;
+	display: inline-block;
+}
+.entry{
+	background-color: lightgrey;
+	border-radius: 20%;
+	position: relative;
+	padding: 3px;
+	width: 10%;
+	display: inline-block;
+}
+.header{
+font-family: Herculanum;
+font-size: 4EM;
+color: #000000;
+}
+.buttonbox{position: relative;
+	top: 20%;
+background: #FFFFFF;
+border: 1px solid #020000;
+border-radius: 8px 8px 8px 8px;
+text-align: center;
+width: 200px;
+margin: auto;
+margin-top:20%;
+}
+.button{
+font-family: Herculanum;
+font-size: 2EM;
+color: #000000;
+}
+.infobox{
+	text-align: center;
+}
+.info{
+position: fixed;
+font-family: LatinWide;
+font-size: 18px;
+color: #FFFFFF;
+background: #000000;
+border: 3px solid #FFFFFF;
+text-align: center;
+width: 30px;
+height: 30px;
+border-radius: 50%;
+margin-top:20%;
+right: 7%;
+bottom: 2%;
+padding-top: 5px;
+padding-bottom:3px;
+
+}
+img{ position: relative;
+	display: block;
+	width: 15px;
+}
+</style>
 	
 </html>
